@@ -1,26 +1,19 @@
 {
-  "name": "js-Homework",                      // Название проекта или пакета (используется npm)
-  "version": "1.0.0",                         // Версия проекта по семантическому стандарту (semver)
-  "description": "Homework-1",                          // Краткое описание проекта (пока не заполнено)
+  "name": "Homework 1",
+  "version": "1.0.0",
+  "description": "Homework-1",
   "scripts": {
-    "push": "git add .; git commit -m 'update'; git push;" 
-                                              // Пользовательская команда npm, которая:
-                                              // 1) добавляет все изменения в git;
-                                              // 2) делает коммит с сообщением "update";
-                                              // 3) отправляет изменения в удалённый репозиторий.
+    "push": "git add .; git commit -m 'update'; git push;"
   },
   "repository": {
-    "type": "git",                            // Указывает, что репозиторий использует систему контроля версий Git
-    "url": "https://github.com/NissaOd/goit-js-hw-01"  
-                                              // URL удалённого репозитория, связан с GitHub
+    "type": "git",
+    "url": "https://github.com/NissaOd/goit-js-hw-01"
   },
-  "keywords": [],                             // Массив ключевых слов, помогает находить пакет на npm (пустой)
-  "author": "Nissa",                               // Автор проекта 
-  "license": "ISC",                           // Лицензия ISC — свободная, минималистичная лицензия с открытым исходным кодом
+  "keywords": [],
+  "author": "Nissa",
+  "license": "ISC",
   "bugs": {
-    "url": ""  
-                                              // Ссылка на страницу с отслеживанием багов (issues) на GitHub
+    "url": ""
   },
-  "homepage": "https://github.com/NissaOd/goit-js-hw-01/blob/main/README.md" 
-                                              // Главная страница проекта — обычно указывает на README.md
+  "homepage": "https://github.com/NissaOd/goit-js-hw-01/blob/main/README.md"
 }
